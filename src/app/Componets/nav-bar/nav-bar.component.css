@@ -1,0 +1,25 @@
+@import url("../../../styles.css");
+.barra{
+    position: absolute;
+    width: -webkit-fill-available;
+    background-color: var(--white);
+    opacity: 100%;
+    z-index: 9;
+}
+.navbar-brand{
+    color: var(--blue);
+    font-weight: bold;
+}
+.nav-link{
+    color: black;
+    
+}
+.nav-link:hover{
+    transition: all 1s;
+    color: black;
+    box-shadow: 3px 2px 4px black;
+    border-radius: 15px;
+}
+.navbar-text{
+    color: var(--blue);
+}

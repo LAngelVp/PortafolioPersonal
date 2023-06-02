@@ -1,0 +1,15 @@
+@import url("../../../styles.css");
+.encabezado{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.titulo{
+    font-family: var(--titulo-letra);
+}
+.eslogan{
+    transform: scale(1);
+    transition: all 1s;
+}
+.eslogan:hover{
+    transform: scale(1.3);
+}
+

@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+/* COLORES */
+:root{
+    --neon-green : #1DC690;
+    --blue-groto : #278AB0;
+    --blue : #1C4670;
+    --ivory : #EAEAE0;
+    --navy-blue: #05445E;
+    --blue-baby:#D4F1F4;
+    --white: #FFFFFF;
+    --verde: #04D010;
+    --royal-blue:#1863D6;
+    --titulo-letra: 'Staatliches', cursive;
+}

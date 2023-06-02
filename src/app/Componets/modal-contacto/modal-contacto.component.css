@@ -1,0 +1,12 @@
+@import url("../../../styles.css");
+.btn_buttom{
+    color: var(--blue-groto);
+    transition: all 0.5s;
+}
+.btn_buttom:hover{
+    color: green;
+    transform: scale(1.5);
+}
+.btn_letra{
+    font-family: var(--titulo-letra);
+}

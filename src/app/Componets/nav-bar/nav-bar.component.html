@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg barra">
+    <div class="container-fluid gap-2">
+      <p class="navbar-brand lead fs-3 m-0 p-0">{{titulo}}</p>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fs-5" aria-current="page" routerLink="/home">{{inicio}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" routerLink="/nosotros">{{sobre_mi}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#">{{proyectos}}</a>
+          </li>
+        </ul>
+        <span class="navbar-text f-flex justify-content-center">
+            {{texto_alternativo}}
+        </span>
+      </div>
+    </div>
+</nav>

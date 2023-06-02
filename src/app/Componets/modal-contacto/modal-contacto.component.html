@@ -1,0 +1,41 @@
+<button type="button" class="btn btn-light btn_buttom opacity-75 position-absolute bottom-0 mb-4 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <i class="d-flex align-items-center justify-content-center bi bi-person-lines-fill display-4 gap-4"><p class="fs-2 p-0 m-0 btn_letra">Contacto profesional</p></i>
+</button>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Formulario de Contacto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="form-control d-flex flex-column gap-2" action="">
+            <div>
+                <label class="form-label" for="nombre">Nombre completo:</label>
+                <input class="form-control" type="text" id="nombre">
+            </div>
+            <div>
+                <label class="form-label" for="nombre">Número Telefonico:</label>
+                <input class="form-control" type="number" id="nombre">
+            </div>
+            <div>
+                <label class="form-label" for="email">Correo electronico:</label>
+                <input type="email" id="email" class="form-control" placeholder="nombre@gmail.com">
+            </div>
+            <div>
+                <label for="descripcion" class="form-label">Contexto:</label>
+                <textarea class="form-control" name="contexto" id="contexto" cols="30" rows="10" placeholder="motivo del mensaje"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary d-flex gap-2">
+            <i class="bi bi-send-fill"></i>
+            Enviar
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>

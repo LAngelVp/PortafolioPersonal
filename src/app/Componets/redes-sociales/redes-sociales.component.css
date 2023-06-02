@@ -1,0 +1,15 @@
+@import url("../../../styles.css");
+.whatsapp{
+    color: var(--verde);
+    opacity: 50%;
+}
+.whatsapp:hover{
+    opacity: 100%;
+}
+.facebook{
+    color: var(--royal-blue);
+    opacity: 50%;
+}
+.facebook:hover{
+    opacity: 100%;
+}
