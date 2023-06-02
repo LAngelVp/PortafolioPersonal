@@ -11,6 +11,8 @@ import { RedesSocialesComponent } from './Componets/redes-sociales/redes-sociale
 import { PiePaginaComponent } from './Componets/pie-pagina/pie-pagina.component';
 import { ProyectosComponent } from './Componets/proyectos/proyectos.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,7 @@ import { ProyectosComponent } from './Componets/proyectos/proyectos.component';
     RedesSocialesComponent,
     PiePaginaComponent,
     ProyectosComponent
+    RedesSocialesComponent
   ],
   imports: [
     BrowserModule,
