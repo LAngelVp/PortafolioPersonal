@@ -8,6 +8,8 @@ import { NosotrosComponent } from './Componets/nosotros/nosotros.component';
 import { HomeComponent } from './Componets/home/home.component';
 import { ModalContactoComponent } from './Componets/modal-contacto/modal-contacto.component';
 import { RedesSocialesComponent } from './Componets/redes-sociales/redes-sociales.component';
+import { PiePaginaComponent } from './Componets/pie-pagina/pie-pagina.component';
+import { ProyectosComponent } from './Componets/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { RedesSocialesComponent } from './Componets/redes-sociales/redes-sociale
     NosotrosComponent,
     HomeComponent,
     ModalContactoComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    PiePaginaComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

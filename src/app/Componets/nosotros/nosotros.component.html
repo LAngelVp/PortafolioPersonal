@@ -1,1 +1,41 @@
-<p>nosotros works!</p>
+<div class="position-relative">
+    <div class="container-fluid contenedor_video">
+        <video src="../../../assets/source/V1.mp4" loop autoplay class=""></video>
+        <div class="position-absolute top-50 start-0 translate-middle-y ms-4 msgInicial">
+            <h2 class="m-0 fs-1">
+                {{eslogan_conoceme}}
+            </h2>
+        </div>
+    </div>
+    <div class="container bg-light rounded-2 mt-5 border border-white">
+        <div class="px-6 py-5">
+            <div class="pb-4">
+                <h3 class="m-0 subtitulo_letra fs-1">{{titulo_quiensoy}}</h3>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                <div class="col w-100">
+                    <p class="letra_contenido fs-5">
+                        {{quiensoy}}
+                    </p>
+                </div>
+                <div class="col d-block w-100">
+                    <img src="../../../assets/source/img4.png" alt="" class="rounded-circle d-block w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 bg-light">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+            <div class="w-100">
+                <h3 class="px-5 subtitulo_letra fs-1">
+                    {{megusta}}
+                </h3>
+            </div>
+            <div class="w-100">
+                <img src="../../../assets/source/img2.svg" alt="img sobre mi pasion" class="w-75 d-block m-auto">
+            </div>
+        </div>
+    </div>
+    <app-redes-sociales></app-redes-sociales>
+</div>
+<app-pie-pagina></app-pie-pagina>

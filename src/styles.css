@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/* titulos */
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
-
+/* subtitulos */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+/* contenido */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Staatliches&display=swap');
 /* COLORES */
 :root{
     --neon-green : #1DC690;
@@ -13,5 +16,14 @@
     --white: #FFFFFF;
     --verde: #04D010;
     --royal-blue:#1863D6;
-    --titulo-letra: 'Staatliches', cursive;
+    --titulo-letra: 'Staatliches', cursive; 
+    --subtitulos-letra:'Ubuntu Condensed', sans-serif;
+    --contenido-letra:'Space Mono', monospace;
+}
+
+.subtitulo_letra{
+    font-family: var(--subtitulos-letra);
+}
+.letra_contenido{
+    font-family: var(--contenido-letra);
 }
