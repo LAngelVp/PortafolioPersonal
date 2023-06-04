@@ -1,0 +1,6 @@
+@import url("../../../styles.css");
+.apartado_principal_proyectos{
+    min-height: 75vh;
+    position: relative;
+    overflow: hidden;
+}
