@@ -7,19 +7,24 @@
             </h2>
         </div>
     </div>
-    <div class="container bg-light rounded-2 mt-5 border border-white">
-        <div class="px-6 py-5">
+    <div class="container contenedor_quiensoy rounded-2 mt-5 border border-white">
+        <div class="px-6 py-5 px-3">
             <div class="pb-4">
-                <h3 class="m-0 subtitulo_letra fs-1">{{titulo_quiensoy}}</h3>
+                <h3 class="m-0 titulo_letra fs-1">{{titulo_quiensoy}}</h3>
             </div>
-            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+            <div class="d-flex flex-column flex-lg-row justify-content-center gap-4 align-items-center">
+                <div class="col d-block w-75 d-flex flex-column align-items-center">
+                    <img src="../../../assets/source/img4.png" alt="" class="rounded-circle d-block w-100">
+                    <cite class="text-center mt-2">
+                        Ingeniero en Sistemas Computacionales
+                        <br>
+                        Esp. Ingeniería de Software
+                    </cite>
+                </div>
                 <div class="col w-100">
-                    <p class="letra_contenido fs-5">
+                    <p class="letra_contenido texto_justificado fs-5">
                         {{quiensoy}}
                     </p>
-                </div>
-                <div class="col d-block w-100">
-                    <img src="../../../assets/source/img4.png" alt="" class="rounded-circle d-block w-100">
                 </div>
             </div>
         </div>
@@ -36,7 +41,7 @@
             </div>
         </div>
     </div>
-    <app-redes-sociales></app-redes-sociales>
 </div>
+<app-redes-sociales></app-redes-sociales>
 <app-pie-pagina></app-pie-pagina>
 

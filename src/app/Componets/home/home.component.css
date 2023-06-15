@@ -1,11 +1,8 @@
 @import url("../../../styles.css");
 .encabezado{
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-<<<<<<< HEAD
     position: absolute;
     top: 0;
-=======
->>>>>>> 0fd0f33 (Termine la pestaña principal y el formulario de contacto)
 }
 .titulo{
     font-family: var(--titulo-letra);
@@ -15,6 +12,6 @@
     transition: all 1s;
 }
 .eslogan:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 

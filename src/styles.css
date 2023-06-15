@@ -1,16 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-<<<<<<< HEAD
+
 /* titulos */
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 /* subtitulos */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 /* contenido */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Staatliches&display=swap');
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-
->>>>>>> 0fd0f33 (Termine la pestaña principal y el formulario de contacto)
 /* COLORES */
 :root{
     --neon-green : #1DC690;
@@ -22,7 +20,6 @@
     --white: #FFFFFF;
     --verde: #04D010;
     --royal-blue:#1863D6;
-<<<<<<< HEAD
     --titulo-letra: 'Staatliches', cursive; 
     --subtitulos-letra:'Ubuntu Condensed', sans-serif;
     --contenido-letra:'Space Mono', monospace;
@@ -33,7 +30,13 @@
 }
 .letra_contenido{
     font-family: var(--contenido-letra);
-=======
-    --titulo-letra: 'Staatliches', cursive;
->>>>>>> 0fd0f33 (Termine la pestaña principal y el formulario de contacto)
+}
+.titulo_letra{
+    font-family: var(--titulo-letra);
+}
+.texto_justificado{
+    text-align: justify;
+}
+.t_icon{
+    font-size: 1.5rem;
 }

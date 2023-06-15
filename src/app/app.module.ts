@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './Componets/nav-bar/nav-bar.component';
@@ -22,7 +21,7 @@ import { ProyectosComponent } from './Componets/proyectos/proyectos.component';
     ModalContactoComponent,
     RedesSocialesComponent,
     PiePaginaComponent,
-    ProyectosComponent
+    ProyectosComponent,
     RedesSocialesComponent
   ],
   imports: [

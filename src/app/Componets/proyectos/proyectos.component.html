@@ -1,17 +1,93 @@
-<div class="bg-primary apartado_principal_proyectos">
-    <div class="f-flex position-absolute top-0 bottom-0 justify-content-evenly mh-75">
-        <div class="d-flex">
-            <div class="w-100 d-block mh-100">
-                <h2 class="subtitulo_letra">
-                    "Los retos son los que hacen la vida interesante; superarlos es lo que hace que la vida tenga sentido." <br>
-                    <span class="fs-5 fst-italic">
-                        Joshua J. Marine
-                    </span>
-                </h2>
-            </div>
-            <div class="w-100 bg-light mh-100">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati totam, iste quos a sit neque, nulla molestias voluptates veritatis nobis placeat dolores inventore non. Perspiciatis, ex id! Pariatur facere, dolorem fuga minus soluta aliquid.
-            </div>
-        </div>
+<section class="contenedor_p">
+    <div class="contenedor_titulo_nosotros p-x-4">
+        <h3 class="text-center p-0 titulo_letra titulo_l display-6">
+            {{texto_baner_proyectos}}
+        </h3>
     </div>
+    <div class="contenedor_img_nosotros position-relative p-0 d-none d-md-block">
+        <img src="../../../assets/source/img5.jpg" alt="" class="img">
+    </div>
+</section>
+<div class="container-fluid my-5">
+  <div class="row">
+    <div class="col mt-5 ms-3">
+      <h2 class="titulo_letra fs-1">
+        {{texto_titulo_experiencia}}
+      </h2>
+      <p class="letra_contenido fs-5">
+        {{eslogan_experiencia}}
+        <br>
+        {{eslogan_experiencia2}}
+      </p>
+    </div>
+    <div class="col w-100 d-flex flex-column align-items-center justify-content-center">
+      <i class="bi bi-github icon_github"></i>
+      <button class="btn btn-dark btn_github"><a href={{direction_github}} target="_blank" class="letra_btn_github">{{btn_github}}</a></button>
+    </div>
+  </div>
 </div>
+<div class="container-fluid my-4 mx-0 contenedor_proyectos row p-0">
+  <div class="col col-md-8 d-flex flex-column gap-4 my-4 ps-4">
+    <h3 class="titulo_letra fs-1">
+      Proyectos de desarrollo
+    </h3>
+    <p class="subtitulo_letra fs-2">
+      {{texto_eslogan_proyectos}}
+    </p>
+  </div>
+  <div class="w-100 col col-ms-4 p-0 m-3 contenedor_carrusel">
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner row contenedor_cards p-0 m-0">
+        <div class="card carousel-item active col h-100 p-0">
+          <div class="img_contenedor">
+            <img src="../../../assets/source/img1.png" class="card-img-top img_card" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore deserunt id modi doloremque laboriosam!</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card carousel-item col h-100 p-0">
+          <div class="img_contenedor">
+            <img src="../../../assets/source/img2.svg" class="card-img-top img_card" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card carousel-item col h-100 p-0">
+          <div class="img_contenedor">
+            <img src="../../../assets/source/img3.svg" class="card-img-top img_card" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">n the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+<div>
+  <div>
+
+  </div>
+</div>
+<app-pie-pagina></app-pie-pagina>
